@@ -27,6 +27,7 @@ function json(data, status) {
   });
 }
 function authorized(request) {
+  
   return (request.headers.get('Authorization') || '') === 'Bearer ' + PANEL_TOKEN;
 }
 function uuidRe() { return /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i; }
