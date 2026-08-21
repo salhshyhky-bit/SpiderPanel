@@ -13,7 +13,7 @@
 //   __PANEL_DOMAIN__  → panel public domain (JSON string)
 // ══════════════════════════════════════════════════════════════════════════════
 
-const PANEL_TOKEN = "8062Aa8062Aa@";
+const PANEL_TOKEN = "8062Aa8062Aa@"; 
 const PANEL_DOMAIN = __PANEL_DOMAIN__;
 const WORKER_DOMAIN = __WORKER_DOMAIN__;
 const BUF = 64 * 1024;
