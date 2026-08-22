@@ -13,8 +13,8 @@
 //   __PANEL_DOMAIN__  → panel public domain (JSON string)
 // ══════════════════════════════════════════════════════════════════════════════
 
-const PANEL_TOKEN = __PANEL_TOKEN__;
-const PANEL_DOMAIN = __PANEL_DOMAIN__;
+const PANEL_TOKEN = "secret123456";
+const PANEL_DOMAIN = "mydomain.com";
 const BUF = 64 * 1024;
 
 // ── Utility ─────────────────────────────────────────────────────────────────
